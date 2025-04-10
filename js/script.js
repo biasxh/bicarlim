@@ -48,9 +48,13 @@ if (typed) {
     typed_strings = typed_strings.split(',')
 
     new Typed('.typed',{
-  strings: typed_strings
+  strings: typed_strings,
+  loop: true, /* repetição de palavras */
+  typeSpeed: 70, /* velocidade digitação */
+  backSpeed: 35, /* velocidade em apagar */
+  backDelay: 2000, /* tempo de espera */
 
-    })
+    });
 }
 
 
