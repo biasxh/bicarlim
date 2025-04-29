@@ -55,7 +55,9 @@ if (typed) {
   backDelay: 2000, /* tempo de espera */
 
     });
-}
+ }
+
+ new PureCounter();
 
 
-})()
+ })()
