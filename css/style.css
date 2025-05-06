@@ -443,3 +443,10 @@ width: 100%;
   background: #d06a7d;
   height: 10px;
 }
+
+.skills .progress-bar {
+  height: 10px;
+  background: #8b3a51;
+  transition: 5s;
+  width: 1px;
+}
